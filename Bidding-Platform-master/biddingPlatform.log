@@ -1,0 +1,1068 @@
+2021-11-26 00:00:08.910 ERROR 7003 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Email cannot be empty!!!
+2021-11-26 00:00:09.054 ERROR 7003 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 00:00:10.736  INFO 7003 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:47:47.449  INFO 7003 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:47:50.673  INFO 7003 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 09:51:03.536  INFO 7003 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:51:05.457  INFO 7003 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 09:51:10.202  INFO 7003 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:51:15.430  INFO 7003 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 09:51:21.229  INFO 7003 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:51:24.583  INFO 7003 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 09:51:31.901  INFO 7003 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:51:36.407  INFO 7003 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 09:53:16.671  INFO 7003 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:11:21.028  INFO 7003 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 10:11:21.031  INFO 7003 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 10:11:21.062  INFO 7003 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 10:11:21.097  INFO 7003 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 10:11:38.491  INFO 19736 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 19736 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 10:11:38.508  INFO 19736 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 10:11:40.804  INFO 19736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 10:11:40.926  INFO 19736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 3 JPA repository interfaces.
+2021-11-26 10:11:42.433  INFO 19736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 10:11:42.445  INFO 19736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 10:11:42.446  INFO 19736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 10:11:42.610  INFO 19736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 10:11:42.610  INFO 19736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3952 ms
+2021-11-26 10:11:42.719  INFO 19736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 10:11:43.071  INFO 19736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 10:11:43.077  INFO 19736 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 10:11:43.465  INFO 19736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 10:11:43.527  INFO 19736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 10:11:43.803  INFO 19736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 10:11:44.091  INFO 19736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 10:11:45.330  INFO 19736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 10:11:45.378  INFO 19736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 10:11:46.011  WARN 19736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 10:11:46.164  INFO 19736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 10:11:46.499  INFO 19736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 10:11:46.518  INFO 19736 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 9.38 seconds (JVM running for 11.809)
+2021-11-26 10:36:00.319  INFO 19736 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 10:36:00.320  INFO 19736 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 10:36:00.322  INFO 19736 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-26 10:36:00.746  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:36:03.256 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Product name cannot be empty!!!
+2021-11-26 10:36:03.256 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Product description cannot be empty!!!
+2021-11-26 10:36:03.257 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 10:36:03.257 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 10:36:03.289 ERROR 19736 --- [http-nio-9090-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 10:36:14.628 ERROR 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 10:36:14.629 ERROR 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 10:36:14.635 ERROR 19736 --- [http-nio-9090-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 10:36:15.816 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 10:36:15.817 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 10:36:15.820 ERROR 19736 --- [http-nio-9090-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 10:36:15.843 ERROR 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 10:36:15.844 ERROR 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 10:36:15.846 ERROR 19736 --- [http-nio-9090-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 10:36:24.754  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:39:20.725  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:39:35.250  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:39:39.740  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:39:43.350  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:41:51.581  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:41:53.734  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:43:51.878 ERROR 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 10:43:51.879 ERROR 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 10:43:51.879  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 10:43:52.056  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:43:54.673  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:44:15.652  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:44:23.907  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:44:44.553  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:44:58.578  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:45:05.067  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:50:23.909 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : First name cannot be empty!!!
+2021-11-26 10:50:23.915 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Second name cannot be empty!!!
+2021-11-26 10:50:23.917 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Contact number cannot be empty!!!
+2021-11-26 10:50:23.917 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 10:50:23.920  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 10:50:23.993  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:53:03.084  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:54:35.786  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:56:31.189 ERROR 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : Email cannot be empty!!!
+2021-11-26 10:56:31.191  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 10:56:33.446  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:58:44.852  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:58:45.900  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:58:46.917 ERROR 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 10:58:46.923  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 10:58:48.054 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 10:58:48.055  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 10:58:48.985  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:59:27.636  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 10:59:40.170  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:59:44.731  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 10:59:46.095  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 11:00:12.605  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:04:31.804 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Second name cannot be empty!!!
+2021-11-26 12:04:31.805 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 12:04:31.806 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 12:04:31.806 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 12:04:31.806  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 12:04:31.860  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:06:48.952  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:06:50.185  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:06:51.768 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Product name cannot be empty!!!
+2021-11-26 12:06:51.768 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Product description cannot be empty!!!
+2021-11-26 12:06:51.768 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 12:06:51.769 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 12:06:51.770 ERROR 19736 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 12:06:53.610 ERROR 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : Product name cannot be empty!!!
+2021-11-26 12:06:53.611 ERROR 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : Product description cannot be empty!!!
+2021-11-26 12:06:53.612 ERROR 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : Minimum bid cannot be zero!!!
+2021-11-26 12:06:53.612 ERROR 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : Invalid owner id!!!
+2021-11-26 12:06:53.615 ERROR 19736 --- [http-nio-9090-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 12:13:16.041  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:13:59.974  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:14:33.902  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:15:11.396  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:15:48.175  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:17:09.529  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:17:11.058  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:17:49.495  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:19:11.934  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:19:15.974  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:19:47.876  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:25:21.066  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:25:55.628  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:25:58.655  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:26:01.016  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:26:24.680  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:26:54.938  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:30:10.543  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 12:34:45.142  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:34:51.357  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:39:36.789  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:40:33.146  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:41:47.960  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:57:49.703 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : First name cannot be empty!!!
+2021-11-26 12:57:49.703 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : Second name cannot be empty!!!
+2021-11-26 12:57:49.703 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : Email cannot be empty!!!
+2021-11-26 12:57:49.703 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : Contact number cannot be empty!!!
+2021-11-26 12:57:49.704 ERROR 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 12:57:49.704  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 12:57:49.754  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:58:46.717 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 12:58:46.718 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Invalid format for first name!!!
+2021-11-26 12:58:46.719 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 12:58:46.719 ERROR 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 12:58:46.719  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 12:58:46.760  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 12:59:23.262 ERROR 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Second name cannot be empty!!!
+2021-11-26 12:59:23.262 ERROR 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Email cannot be empty!!!
+2021-11-26 12:59:23.263 ERROR 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 12:59:23.263  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 12:59:23.302  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:01:18.855 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 13:01:18.855 ERROR 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 13:01:18.856  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 13:01:18.895  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:01:26.358 ERROR 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 13:01:26.358 ERROR 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 13:01:26.358  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 13:01:26.395  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:01:52.677 ERROR 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 13:01:52.680 ERROR 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 13:01:52.681  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 13:01:52.727  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:13:37.483 ERROR 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 13:13:37.484 ERROR 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 13:13:37.484  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 13:13:37.543  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:14:07.883 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Provide a valid gender!!!
+2021-11-26 13:14:07.884 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 13:14:07.884 ERROR 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 13:14:07.884  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 13:14:07.924  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:14:12.163  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 13:14:38.740  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:14:40.602  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 13:18:11.092  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 13:18:26.229  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 13:18:41.291  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:19:42.080  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 13:19:43.539  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:10:19.061  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:10:22.191  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:10:30.057  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:10:37.483  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:10:53.065  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:11:10.475  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:11:12.806  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:11:15.333  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:11:19.570  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:11:21.212  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:11:26.829  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:11:28.757  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:11:42.308  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:12:08.036  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:13:49.414  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:13:53.082  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:15:02.709  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:15:42.020  INFO 19736 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:15:44.986  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:20:26.829  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:20:52.531  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:21:08.670  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:21:20.523  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:21:41.954  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:22:23.221  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:23:09.202  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:23:13.795  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:23:16.504  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:32:32.356  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:20.921  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:34:20.943  INFO 19736 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:20.944  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:20.955  INFO 19736 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:20.956  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:34:32.933  INFO 19736 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:34.385  INFO 19736 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:39.474  INFO 19736 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:40.864  INFO 19736 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:34:49.381  INFO 19736 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:34:50.589  INFO 19736 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:44:18.507  INFO 19736 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:47:27.141  INFO 19736 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:47:27.143  INFO 19736 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:47:27.147  INFO 19736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 14:47:27.150  INFO 19736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 14:48:07.510  INFO 31273 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 31273 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 14:48:07.513  INFO 31273 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 14:48:09.011  INFO 31273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 14:48:09.132  INFO 31273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 3 JPA repository interfaces.
+2021-11-26 14:48:10.017  INFO 31273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 14:48:10.031  INFO 31273 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 14:48:10.032  INFO 31273 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 14:48:10.142  INFO 31273 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 14:48:10.143  INFO 31273 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2487 ms
+2021-11-26 14:48:10.218  INFO 31273 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 14:48:10.502  INFO 31273 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 14:48:10.509  INFO 31273 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 14:48:10.830  INFO 31273 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 14:48:10.910  INFO 31273 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 14:48:11.154  INFO 31273 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 14:48:11.346  INFO 31273 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 14:48:12.329  INFO 31273 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 14:48:12.338  INFO 31273 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:48:12.887  WARN 31273 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 14:48:13.049  INFO 31273 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:48:13.459  INFO 31273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 14:48:13.503  INFO 31273 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 7.168 seconds (JVM running for 9.852)
+2021-11-26 14:49:18.593  INFO 31273 --- [http-nio-9090-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 14:49:18.594  INFO 31273 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 14:49:18.597  INFO 31273 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-26 14:49:18.949  INFO 31273 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:49:29.937  INFO 31273 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:50:19.167 ERROR 31273 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 14:50:19.167 ERROR 31273 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 14:50:19.168  INFO 31273 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 14:50:20.316  INFO 31273 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:50:36.279  INFO 31273 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:50:37.321  INFO 31273 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:51:42.405  INFO 31273 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:51:45.945 ERROR 31273 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : Email address provided is not valid!!!
+2021-11-26 14:51:45.946 ERROR 31273 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 14:51:45.947  INFO 31273 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 14:51:47.397  INFO 31273 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:54:26.685  INFO 31273 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:54:26.687  INFO 31273 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:54:26.692  INFO 31273 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 14:54:26.698  INFO 31273 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 14:54:33.874  INFO 32020 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 32020 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 14:54:33.880  INFO 32020 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 14:54:35.238  INFO 32020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 14:54:35.314  INFO 32020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2021-11-26 14:54:35.992  INFO 32020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 14:54:36.002  INFO 32020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 14:54:36.002  INFO 32020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 14:54:36.128  INFO 32020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 14:54:36.129  INFO 32020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2159 ms
+2021-11-26 14:54:36.192  INFO 32020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 14:54:36.330  INFO 32020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 14:54:36.338  INFO 32020 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 14:54:36.496  INFO 32020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 14:54:36.540  INFO 32020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 14:54:36.684  INFO 32020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 14:54:36.797  INFO 32020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 14:54:37.722  INFO 32020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 14:54:37.733  INFO 32020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:54:38.251  WARN 32020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 14:54:38.393  INFO 32020 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:54:38.696  INFO 32020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 14:54:38.715  INFO 32020 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 5.725 seconds (JVM running for 6.896)
+2021-11-26 14:55:20.186  INFO 32020 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 14:55:20.187  INFO 32020 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 14:55:20.189  INFO 32020 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-26 14:55:20.298 ERROR 32020 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 14:55:20.299  INFO 32020 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 14:55:21.334  INFO 32020 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:56:52.958  INFO 32020 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:56:52.963  INFO 32020 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:56:52.967  INFO 32020 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 14:56:52.972  INFO 32020 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 14:57:00.716  INFO 32199 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 32199 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 14:57:00.719  INFO 32199 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 14:57:01.983  INFO 32199 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 14:57:02.080  INFO 32199 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2021-11-26 14:57:02.726  INFO 32199 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 14:57:02.734  INFO 32199 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 14:57:02.735  INFO 32199 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 14:57:02.860  INFO 32199 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 14:57:02.861  INFO 32199 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2072 ms
+2021-11-26 14:57:02.930  INFO 32199 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 14:57:03.059  INFO 32199 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 14:57:03.069  INFO 32199 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 14:57:03.239  INFO 32199 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 14:57:03.281  INFO 32199 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 14:57:03.389  INFO 32199 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 14:57:03.523  INFO 32199 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 14:57:04.373  INFO 32199 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 14:57:04.382  INFO 32199 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 14:57:04.826  WARN 32199 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 14:57:04.940  INFO 32199 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 14:57:05.231  INFO 32199 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 14:57:05.251  INFO 32199 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 5.438 seconds (JVM running for 6.519)
+2021-11-26 14:57:15.341  INFO 32199 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 14:57:15.342  INFO 32199 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 14:57:15.344  INFO 32199 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-26 14:57:15.462  INFO 32199 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 14:57:16.847  INFO 32199 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 14:59:18.586  INFO 32199 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 14:59:20.375  INFO 32199 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:02:02.869  INFO 32199 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:02:02.871  INFO 32199 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:02:02.876  INFO 32199 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 15:02:02.884  INFO 32199 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 15:02:10.253  INFO 32488 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 32488 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 15:02:10.257  INFO 32488 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 15:02:11.496  INFO 32488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 15:02:11.562  INFO 32488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2021-11-26 15:02:12.170  INFO 32488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 15:02:12.179  INFO 32488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 15:02:12.180  INFO 32488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 15:02:12.298  INFO 32488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 15:02:12.299  INFO 32488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1944 ms
+2021-11-26 15:02:12.373  INFO 32488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 15:02:12.497  INFO 32488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 15:02:12.504  INFO 32488 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 15:02:12.672  INFO 32488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 15:02:12.717  INFO 32488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 15:02:12.830  INFO 32488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 15:02:12.934  INFO 32488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 15:02:13.706  INFO 32488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 15:02:13.718  INFO 32488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:02:14.247  WARN 32488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 15:02:14.372  INFO 32488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:02:14.610  INFO 32488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 15:02:14.628  INFO 32488 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 5.224 seconds (JVM running for 6.583)
+2021-11-26 15:02:48.265  INFO 32488 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 15:02:48.266  INFO 32488 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 15:02:48.268  INFO 32488 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-26 15:02:48.449  INFO 32488 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:02:48.449  INFO 32488 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:02:57.522  INFO 32488 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:03:25.334  INFO 32488 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:03:48.869  INFO 32488 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:03:49.689  INFO 32488 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:04:25.056  INFO 32488 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:04:26.294  INFO 32488 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:04:28.343  INFO 32488 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:04:36.859 ERROR 32488 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 15:04:36.952  INFO 32488 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:04:42.736  INFO 32488 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:04:59.768 ERROR 32488 --- [http-nio-9090-exec-3] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 15:05:00.786  INFO 32488 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:05:45.807  INFO 32488 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:05:54.858  INFO 32488 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:06:23.123  INFO 32488 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:06:23.857  INFO 32488 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:06:33.358  INFO 32488 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:06:52.516 ERROR 32488 --- [http-nio-9090-exec-3] c.n.b.services.ProductBidsService        : Bid owner not selected!!!
+2021-11-26 15:06:56.773  INFO 32488 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:07:55.162 ERROR 32488 --- [http-nio-9090-exec-8] c.n.b.services.ProductService            : Product details correct : PRODUCT UPDATED!!!
+2021-11-26 15:07:56.300  INFO 32488 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:08:31.230  INFO 32488 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:09:16.939 ERROR 32488 --- [http-nio-9090-exec-1] c.n.b.services.ProductBidsService        : Cannot bid with amount less tha minimum bid!!!
+2021-11-26 15:09:45.042 ERROR 32488 --- [http-nio-9090-exec-3] c.n.b.services.ProductBidsService        : Cannot bid with amount less tha minimum bid!!!
+2021-11-26 15:11:11.571 ERROR 32488 --- [http-nio-9090-exec-4] c.n.b.services.ProductBidsService        : Bid owner not selected!!!
+2021-11-26 15:11:33.836  INFO 32488 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:11:52.453  INFO 32488 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:12:02.072 ERROR 32488 --- [http-nio-9090-exec-8] c.n.b.services.ProductBidsService        : Bid owner not selected!!!
+2021-11-26 15:12:06.451  INFO 32488 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:12:07.682  INFO 32488 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:12:23.359 ERROR 32488 --- [http-nio-9090-exec-1] c.n.b.services.ProductBidsService        : Bid owner not selected!!!
+2021-11-26 15:13:36.340  INFO 32488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:13:36.342  INFO 32488 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:13:36.347  INFO 32488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 15:13:36.351  INFO 32488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 15:13:43.589  INFO 530 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 530 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 15:13:43.593  INFO 530 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 15:13:44.765  INFO 530 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 15:13:44.835  INFO 530 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2021-11-26 15:13:45.424  INFO 530 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 15:13:45.433  INFO 530 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 15:13:45.433  INFO 530 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 15:13:45.542  INFO 530 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 15:13:45.542  INFO 530 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1869 ms
+2021-11-26 15:13:45.611  INFO 530 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 15:13:45.749  INFO 530 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 15:13:45.756  INFO 530 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 15:13:45.907  INFO 530 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 15:13:45.952  INFO 530 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 15:13:46.059  INFO 530 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 15:13:46.170  INFO 530 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 15:13:46.931  INFO 530 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 15:13:46.941  INFO 530 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:13:47.379  WARN 530 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 15:13:47.510  INFO 530 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:13:47.753  INFO 530 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 15:13:47.771  INFO 530 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 5.671 seconds (JVM running for 6.837)
+2021-11-26 15:13:55.248  INFO 530 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 15:13:55.249  INFO 530 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 15:13:55.251  INFO 530 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-26 15:13:55.417  INFO 530 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:14:03.231  INFO 530 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:14:06.267  INFO 530 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:14:08.657  INFO 530 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:14:12.378  INFO 530 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:14:30.714  INFO 530 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:14:31.644  INFO 530 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:14:43.212  INFO 530 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:15:09.576  INFO 530 --- [http-nio-9090-exec-9] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 15:15:10.861  INFO 530 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:15:35.089  INFO 530 --- [http-nio-9090-exec-3] c.n.b.services.ProductService            : Product details correct : PRODUCT UPDATED!!!
+2021-11-26 15:15:36.032  INFO 530 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:16:39.598  INFO 530 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:16:47.792 ERROR 530 --- [http-nio-9090-exec-7] c.n.b.services.ProductBidsService        : Cannot bid on it's own product!!!
+2021-11-26 15:16:49.114 ERROR 530 --- [http-nio-9090-exec-8] c.n.b.services.ProductBidsService        : Cannot bid on it's own product!!!
+2021-11-26 15:16:50.988  INFO 530 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:17:22.655  INFO 530 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:17:23.319  INFO 530 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:17:28.951  INFO 530 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:18:05.190  INFO 530 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:19:58.661  INFO 530 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:20:19.656 ERROR 530 --- [http-nio-9090-exec-8] c.n.b.services.ProductBidsService        : Cannot bid with zero or negative amount!!!
+2021-11-26 15:21:49.837  INFO 530 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:21:53.394  INFO 530 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:22:16.266 ERROR 530 --- [http-nio-9090-exec-1] c.n.b.services.ProductService            : Minimum bid cannot be negative!!!
+2021-11-26 15:22:16.267 ERROR 530 --- [http-nio-9090-exec-1] c.n.b.services.ProductService            : Product details incorrect : PRODUCT NOT ADDED!!!
+2021-11-26 15:22:16.277 ERROR 530 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 15:23:55.043  INFO 530 --- [http-nio-9090-exec-3] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 15:23:55.739  INFO 530 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:24:06.625  INFO 530 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:24:32.917 ERROR 530 --- [http-nio-9090-exec-6] c.n.b.services.ProductService            : Minimum bid cannot be zero!!!
+2021-11-26 15:24:32.919 ERROR 530 --- [http-nio-9090-exec-6] c.n.b.services.ProductService            : Product details incorrect : PRODUCT NOT ADDED!!!
+2021-11-26 15:24:32.923 ERROR 530 --- [http-nio-9090-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 15:27:00.776  INFO 530 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:27:00.779  INFO 530 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:27:00.785  INFO 530 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 15:27:00.791  INFO 530 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-26 15:27:07.555  INFO 944 --- [main] c.n.b.BiddingPlatformApplication         : Starting BiddingPlatformApplication using Java 11.0.11 on wildrider with PID 944 (/home/wildrider/Bidding-Platform-master/target/classes started by wildrider in /home/wildrider/Bidding-Platform-master)
+2021-11-26 15:27:07.565  INFO 944 --- [main] c.n.b.BiddingPlatformApplication         : No active profile set, falling back to default profiles: default
+2021-11-26 15:27:08.712  INFO 944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-26 15:27:08.785  INFO 944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2021-11-26 15:27:09.344  INFO 944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-11-26 15:27:09.353  INFO 944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-26 15:27:09.354  INFO 944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-11-26 15:27:09.479  INFO 944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-26 15:27:09.480  INFO 944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1843 ms
+2021-11-26 15:27:09.552  INFO 944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-26 15:27:09.674  INFO 944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-26 15:27:09.681  INFO 944 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:biddb'
+2021-11-26 15:27:09.849  INFO 944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 15:27:09.892  INFO 944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-11-26 15:27:10.003  INFO 944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 15:27:10.114  INFO 944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-26 15:27:10.864  INFO 944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 15:27:10.873  INFO 944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 15:27:11.350  WARN 944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-26 15:27:11.474  INFO 944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-26 15:27:11.705  INFO 944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-11-26 15:27:11.723  INFO 944 --- [main] c.n.b.BiddingPlatformApplication         : Started BiddingPlatformApplication in 4.955 seconds (JVM running for 6.012)
+2021-11-26 15:28:25.517  INFO 944 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 15:28:25.518  INFO 944 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-26 15:28:25.519  INFO 944 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-26 15:28:25.679  INFO 944 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:28:47.783  INFO 944 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:28:47.916  INFO 944 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:29:02.242  INFO 944 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:29:14.108  INFO 944 --- [http-nio-9090-exec-6] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 15:29:14.188  INFO 944 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:29:31.103  INFO 944 --- [http-nio-9090-exec-10] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:29:31.109  INFO 944 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:29:50.861  INFO 944 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : Adding new user data to sql database!!!
+2021-11-26 15:29:50.910  INFO 944 --- [http-nio-9090-exec-2] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 15:29:56.451  INFO 944 --- [http-nio-9090-exec-4] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 15:30:14.439 ERROR 944 --- [http-nio-9090-exec-5] c.n.b.services.ProductBidsService        : Cannot bid with zero or negative amount!!!
+2021-11-26 16:28:46.773  INFO 944 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:28:51.078  INFO 944 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 16:29:01.576  INFO 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 16:29:01.663  INFO 944 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:29:03.755  INFO 944 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 16:29:14.590  INFO 944 --- [http-nio-9090-exec-2] c.n.b.services.ProductService            : Product details correct : PRODUCT ADDED!!!
+2021-11-26 16:29:14.705  INFO 944 --- [http-nio-9090-exec-3] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:30:24.654 ERROR 944 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : First name cannot be empty!!!
+2021-11-26 16:30:24.655 ERROR 944 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : Contact number provided is invalid!!!
+2021-11-26 16:30:24.656  INFO 944 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.UserResource     : User not added to sql database!!!
+2021-11-26 16:30:25.903  INFO 944 --- [http-nio-9090-exec-6] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:39:56.304  INFO 944 --- [http-nio-9090-exec-7] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:40:01.436  INFO 944 --- [http-nio-9090-exec-9] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 16:41:05.136 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product description cannot be empty!!!
+2021-11-26 16:41:05.137 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Minimum bid cannot be zero!!!
+2021-11-26 16:41:05.138 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product details incorrect : PRODUCT NOT ADDED!!!
+2021-11-26 16:41:05.299 ERROR 944 --- [http-nio-9090-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.addProduct(ProductResource.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 16:47:04.409  INFO 944 --- [http-nio-9090-exec-8] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:47:14.400  INFO 944 --- [http-nio-9090-exec-1] c.n.biddingPlatform.api.UserResource     : list of users fetched from sql database!!!
+2021-11-26 16:47:49.222 ERROR 944 --- [http-nio-9090-exec-4] c.n.b.services.ProductBidsService        : Cannot bid with amount less tha minimum bid!!!
+2021-11-26 16:58:44.792  INFO 944 --- [http-nio-9090-exec-5] c.n.biddingPlatform.api.ProductResource  : getting list of products from sql database!!!
+2021-11-26 16:59:27.619 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product description cannot be empty!!!
+2021-11-26 16:59:27.620 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Minimum bid cannot be negative!!!
+2021-11-26 16:59:27.621 ERROR 944 --- [http-nio-9090-exec-10] c.n.b.services.ProductService            : Product details incorrect : PRODUCT NOT UPDATED!!!
+2021-11-26 16:59:27.625 ERROR 944 --- [http-nio-9090-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.nitesh.biddingPlatform.api.ProductResource.updateProduct(ProductResource.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-26 17:00:26.377  INFO 944 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-26 17:00:26.385  INFO 944 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-26 17:00:26.428  INFO 944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-26 17:00:26.449  INFO 944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
